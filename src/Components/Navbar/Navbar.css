@@ -1,0 +1,57 @@
+.navbar-container{
+    height: auto;
+    
+}
+.navbar-wrapper{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+.nav-centre{
+    width: 34%;
+    text-align: center;
+}
+.nav-right{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Language{
+    font-size: 14px;
+    cursor: pointer;
+}
+.search-container{
+    border: 0.5px solid lightgrey;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+.search-container i{
+    color: grey;
+    font-size: 16px;
+}
+.search-container input{
+    border: none;
+}
+.Logo{
+    font-weight: bold ;
+    font-family: inherit;
+}
+.menu-items .badge{
+    margin-left: -6px;
+    margin-top: -14px;
+
+}
+.menu-items{
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 25px;
+}
