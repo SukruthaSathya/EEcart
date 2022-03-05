@@ -1,0 +1,38 @@
+.news-container{
+    height: 60vh;
+    background-color: rgb(235, 243, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.news-container h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: 500;
+}
+.news-container .desc{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.news-container .input-container{
+    width: 50%;
+    height: 40px;
+    background-color:white;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: space-between;
+}
+.input-container input{
+    border: none;
+    flex: 8;
+    padding-left: 20px;
+}
+.input-container button{
+    flex: 1;
+    border: none;
+    background-color: teal;
+    color: white;
+}
