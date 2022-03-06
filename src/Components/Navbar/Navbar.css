@@ -36,9 +36,14 @@
 .search-container i{
     color: grey;
     font-size: 16px;
+    cursor: pointer;
+}
+.search-container i:hover{
+    color: rgb(71, 70, 70);
 }
 .search-container input{
     border: none;
+    outline: none;
 }
 .Logo{
     font-weight: bold ;

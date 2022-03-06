@@ -23,8 +23,39 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div className="center"></div>
-        <div className="right"></div>
+        <div className="footer-center">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Home</li>
+                <li>Cart</li>
+                <li>Man Fashion</li>
+                <li>Woman Fashion</li>
+                <li>Accessories</li>
+                <li>My Account</li>
+                <li>Order Tracking</li>
+                <li>Wishlist</li>
+                <li>Cart</li>
+                <li>Terms</li>
+            </ul>
+        </div>
+        <div className="right">
+            <h3>Contact</h3>
+            <div className="contact-item">
+                <i className='fa fa-map-marker	'></i>
+                <p>622 Dixie Path, South Tobinchester 98336</p>
+                
+            </div>
+            <div className="contact-item">
+                <i className='fa fa-phone'></i>
+                <p>+1234 56 78 90</p>
+                
+            </div>
+            <div className="contact-item">
+                <i className='fa fa-envelope'></i>
+                <p>contact@style.dev</p>
+            </div>
+            <img src="https://perfectwebexperts.com/public/images/cmspages/1605659242.png" alt="" className="payment" />
+        </div>
     </div>
   )
 }

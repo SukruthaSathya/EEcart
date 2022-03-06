@@ -3,6 +3,7 @@
     margin: 3px;
     height: 70vh;
     position: relative;
+  
 }
 .cat-item-container img{
     width: 100%;
@@ -23,6 +24,8 @@
 .cat-info h1{
     color: white;
     margin-bottom: 20px;
+    font-family: monospace;
+    font-weight: 700;
 }
 .cat-info button{
     border: none;
@@ -31,4 +34,10 @@
     background-color: white;
     color: grey;
     font-weight: 500;
+    border-radius: 5%;
+}
+.cat-info button:hover{
+    color: rgb(85, 84, 84);
+    transition: all 0.6s ease;
+    transform: scale(1.05);
 }

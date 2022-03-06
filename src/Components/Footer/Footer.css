@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    cursor: pointer;
     
 }
 #fb{
@@ -39,12 +40,43 @@
 }
 .footer-container .left .desc{
     margin: 20px 0;
+    font-weight: 100;
 }
-.footer-container .center{
+.footer-container .footer-center{
     flex: 1;
     padding: 20px;
+}
+.footer-center h3, .right h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.footer-center ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-center li{
+    font-weight: 100;
+    width: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 .footer-container .right{
     flex: 1;
     padding: 20px;
+}
+.contact-item{
+    font-weight: 100;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.contact-item i{
+    margin-right: 10px;
+}
+.right .payment{
+    width: 30%;
 }
