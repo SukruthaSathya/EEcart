@@ -1,0 +1,23 @@
+.filter-parent h1{
+    margin: 20px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    margin: 20px;
+}
+.filter span{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.filter select{
+    padding: 10px;
+    margin: 20px;
+
+}
+
