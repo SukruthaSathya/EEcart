@@ -4,7 +4,7 @@ import './Cart.css'
 function Cart() {
   return (
     <div className='cart-wrapper'>
-        <h1>YOUR BAG</h1>
+        <h1 className='cart-title'>YOUR BAG</h1>
         <div className="cart-top">
 
             <button id='continue'>CONTINUE SHOPPING</button>
@@ -12,7 +12,7 @@ function Cart() {
                 <span>Shopping Bag (2)</span>
                 <span>Your Wishlist (0)</span>
             </div>
-            <button id='checkout'>CHECKOUT NOW</button>
+            <button id='checkout'>EMPTY BAG</button>
            
         </div>
         <div className='cart-bottom'>

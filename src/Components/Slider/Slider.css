@@ -38,20 +38,20 @@
     height: 100vh;
 }
 #summer{
-    background-color: #e7eff7;
+    background-color: #f7e8e7;
 }
 #winter{
-    background-color: #f7f0e7;
+    background-color: #e7f7f1;
 }
 #popular{
-    background-color: #ecf7e7;
+    background-color: #eee7f7;
 }
 .ImgContainer{
     flex: 1;
     height: 100%;
 }
-.ImgContainer img{
-    height: 80%;
+.slide .ImgContainer img{
+    height: inherit;
 }
 .InfoContainer{
     flex: 1;
