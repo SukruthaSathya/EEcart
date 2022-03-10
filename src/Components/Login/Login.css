@@ -1,0 +1,54 @@
+.login-container{
+    width: 100vw;height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5),
+            rgba(255,255,255,0.5)),
+            url("https://img.freepik.com/free-photo/two-young-beautiful-smiling-hipster-female-trendy-white-sweater-coat_158538-16941.jpg?w=996") center no-repeat;
+        background-size: cover;
+         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-wrapper{
+        width: 25%;
+        padding: 20px;
+        background-color: white;
+    }
+    .login-wrapper h1{
+        font-size: 24px;
+        font-weight: 400;
+        font-family: unset;
+    }
+    .login-wrapper form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+    }
+    .login-wrapper form input{
+        flex: 1;
+        min-width: 40%;
+        margin: 10px 0;
+        padding: 10px;
+        outline-color: teal;
+    }
+    .login-wrapper form button{
+        width: 40%;
+        border: none;
+        padding: 15px 20px;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+        margin: 10px 0;
+       
+    }
+    .login-wrapper form button:hover{
+        font-weight: 500;
+    }
+    .login-wrapper form a{
+        font-family: unset;
+        margin: 5px 0px;
+        font-size: 12px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
