@@ -8,7 +8,7 @@ import RegisterPage from './Pages/RegisterPage';
 
 function App() {
   return (
-    <Home/>
+    <RegisterPage/>
   );
 }
 

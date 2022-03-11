@@ -3,6 +3,8 @@ import './Login.css'
 
 function Login() {
   return (
+    <div>
+      <div className="go-back"><i className='fa fa-arrow-left'></i></div>
     <div className='login-container'>
       <div className='login-wrapper'>
         <h1>
@@ -13,10 +15,11 @@ function Login() {
           <input type="text" placeholder='Username' />
           <input type="text" placeholder='Password' />
           <button>LOGIN</button>
-          <a href="">DO NOT REMEMBER THE PASSWORD? </a>
+          <a href="">Do not remember the password? </a>
           <a href="">CREATE NEW ACCOUNT</a>
         </form>
       </div>
+    </div>
     </div>
   )
 }

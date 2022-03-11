@@ -7,26 +7,52 @@ background: linear-gradient(rgba(255,255,255,0.5),
      display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.go-back{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    margin: 3% 0 0 5%;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.go-back:hover i{
+    transform: scale(1.1);
 }
 .reg-wrapper{
     width: 40%;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 1s ease;
+    
+}
+.reg-wrapper:hover{
     background-color: white;
+    
 }
 .reg-wrapper h1{
-    font-size: 24px;
-    font-weight: 300;
-    font-family: unset;
+    font-size: 28px;
+        font-weight: 500;
+        font-family: inherit;
+       
 }
 .reg-wrapper form{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .reg-wrapper form input{
     flex: 1;
     min-width: 40%;
     margin: 20px 10px 0px 0px;
     padding: 10px;
+    outline-color: teal;
 }
 .agreement{
     font-size: 12px;
@@ -46,6 +72,7 @@ background: linear-gradient(rgba(255,255,255,0.5),
     background-color: teal;
     color: white;
     cursor: pointer;
+    
 }
 .reg-wrapper form button:hover{
     font-weight: 500;
