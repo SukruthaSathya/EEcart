@@ -18,6 +18,7 @@
     padding: 10px;
     font-weight: 600;
     cursor: pointer;
+    width: 12rem;
 }
 #continue{
     background-color: transparent;
@@ -194,7 +195,7 @@
     .cart-summary{
         margin-top: 15px;
     margin-left: 0;
-        width: 90vw;
+        width: 80vw;
     }
     .cart-productDetails {
         flex: 3;
@@ -264,5 +265,33 @@
     }
 }
 @media only screen and (max-width: 400px){
-    
+    .cart-wrapper .cart-title {
+        font-size: 30px;
+    }
+    .cart-top button {
+        width: 55%;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+    .top-texts{
+        display: none;
+    }
+    .cart-productDetails .details{
+        padding-top: 5px;
+    letter-spacing: 1px;
+    }
+    .cart-productDetails span {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .prod-amountContainer i{
+        font-size: 12px;
+    }
+    .prod-amount {
+        font-size: 18px;
+        margin: 5px 10px;
+    }
+    .prod-price {
+        font-size: 20px;
+    }
 }
