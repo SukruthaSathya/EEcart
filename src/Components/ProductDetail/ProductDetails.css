@@ -1,10 +1,24 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#prod-Details{
+    background-color: rgb(220, 246, 248);
+    left: 2%;
+    top: 2%;
+    margin: 0;
+}
 .prod-wrapper{
     padding: 50px;
     display: flex;
+    flex-wrap: wrap;
     height: 90vh;
 }
 .prod-ImgContainer{
-    flex: 1;
+    width: 50%;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -16,7 +30,7 @@ object-fit: cover;
 
 }
 .prod-InfoContainer{
-    flex: 1;
+    width: 50%;
     padding: 0 50px;
 }
 .prod-InfoContainer h1{
@@ -33,8 +47,8 @@ object-fit: cover;
     font-size: 40px;
 }
 .prod-InfoContainer .filter-container{
-    width: 50%;
-    margin: 30px 0px;
+    width: 100%;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -67,17 +81,20 @@ object-fit: cover;
     outline: none;
 }
 .add-container{
+    margin-top: 15%;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 100%;
     justify-content: space-between;
 }
 .add-container button{
+    width: 49%;
     padding: 15px;
     border: 2px solid teal;
     background-color: white;
     cursor: pointer;
     font-weight: 500;
+    font-family: inherit;
 }
 .add-container button:hover{
     background-color: aliceblue;
@@ -86,9 +103,10 @@ object-fit: cover;
     display: flex;
     align-items: center;
     font-weight: 700;
+    width: 110px;
 }
 .amount-container i{
-    font-size: 15 px;
+    margin: 0 5px;
     color: teal;
     cursor: pointer;
 }
@@ -104,4 +122,61 @@ object-fit: cover;
     font-weight: 100;
     font-size: 20px;
 }
-
+.buy-prod{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy-prod button{
+    width: 100%;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    padding: 15px;
+    cursor: pointer;
+}
+.buy-prod button:hover{
+    font-weight: 500;
+}
+.prod-review{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px;
+    width: 90%;
+    margin: 30px 0;
+    border: 1px solid rgb(212, 208, 208);
+}
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.prod-review h2{
+    margin: 10px;
+    font-family: inherit;   
+}
+.rating i{
+    font-size: 25px;
+    margin: 0 3px;
+}
+.rating span{
+    font-size: 20px;
+    color: rgb(153, 150, 150);
+    margin: 0 10px;
+}
+.review button{
+    padding: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+.review button:hover{
+    background-color: rgb(241, 238, 238);
+}
+@media only screen and (max-width: 1110px){
+    .prod-wrapper{
+        height: 70%;
+    }
+}

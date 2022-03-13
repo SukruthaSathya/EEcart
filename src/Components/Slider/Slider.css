@@ -78,3 +78,16 @@
     background-color: black;
     color: white;
 }
+@media only screen and (max-width: 1110px) {
+    .slider-container{
+        height: 91vh;
+    }
+    .slide{
+        flex-direction: column;
+        height: 91vh;
+    }
+    .ImgContainer{
+        height: 60vh;
+        width: 100%;
+    }
+}

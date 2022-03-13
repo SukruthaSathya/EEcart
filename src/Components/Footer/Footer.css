@@ -1,5 +1,6 @@
 .footer-container{
     display: flex;
+    
 }
 .footer-container .left{
     flex: 1;
@@ -79,4 +80,9 @@
 }
 .right .payment{
     width: 30%;
+}
+@media only screen and (max-width: 800px){
+    .footer-container{
+        flex-direction: column;
+    }
 }

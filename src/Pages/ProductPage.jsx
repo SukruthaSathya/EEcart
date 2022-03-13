@@ -10,7 +10,7 @@ function ProductPage() {
     <div>
       <Navbar/>
       <Announcement/>
-        <ProductDetails/>
+      <ProductDetails/>
       <Newsletter/>
       <Footer/>
     </div>

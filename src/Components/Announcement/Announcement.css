@@ -8,3 +8,18 @@
     font-size: 14px;
     font-weight: 500;
 }
+@media only screen and (max-width: 600px){
+    .announ-container{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .announ-container{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .announ-container{
+        font-size: 10px;
+    }
+}

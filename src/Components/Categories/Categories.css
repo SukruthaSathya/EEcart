@@ -3,5 +3,11 @@
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
-    background-color: rgb(250, 240, 240);
+    background-color: rgb(231, 229, 252);
+}
+@media only screen and (max-width: 1110px) {
+    .cat-container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
