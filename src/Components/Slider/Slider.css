@@ -97,6 +97,9 @@
     .slider-container {
         height: 80vh;
     }
+    .slide .ImgContainer{
+        width: 100%;
+    }
     .slide .ImgContainer img {
         height: 100%;
         width: 100%;
