@@ -77,3 +77,71 @@ background: linear-gradient(rgba(255,255,255,0.5),
 .reg-wrapper form button:hover{
     font-weight: 500;
 }
+@media only screen and (max-width: 1200px){
+    .reg-wrapper{
+        width: 50%;
+    }
+    .reg-wrapper form button {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .reg-wrapper {
+        width: 65%;
+    }
+    .reg-wrapper h1 {
+        font-size: 26px;
+    }
+    .reg-wrapper form input{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .agreement{
+        margin: 15px 0;
+    }
+    .reg-wrapper form button {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 620px){
+    .reg-wrapper {
+        width: 80%;
+    }
+    .reg-wrapper h1 {
+        font-size: 22px;
+    }
+    .reg-wrapper form input {
+        margin-top: 10px;
+        margin-right: 5px;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .agreement{
+        font-size: 10px;
+    }
+    .reg-wrapper form button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .reg-wrapper form{
+        flex-direction: column;
+    }
+    .reg-wrapper h1 {
+        font-size: 20px;
+        
+    }
+    .reg-wrapper form input{
+        width: 100%;
+    }
+    .reg-wrapper form{
+        align-items: center;
+    }
+    .reg-wrapper form button {
+        padding: 10px 10px;
+        width: 70%;
+        font-size: 11px;
+    }
+
+}

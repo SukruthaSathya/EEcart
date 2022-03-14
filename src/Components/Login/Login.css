@@ -64,8 +64,40 @@
     .login-wrapper form a:hover{
         text-decoration: underline;
     }
-    @media only screen and (max-width: 1110px) {
+    @media only screen and (max-width: 1200px) {
         .login-wrapper{
             width: 40%;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .login-wrapper{
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .login-wrapper{
+            width: 65%;
+        }
+        .login-wrapper form button{
+            padding: 10px 15px;
+        }
+    }
+    @media only screen and (max-width: 350px){
+        .login-wrapper {
+            width: 85%;
+        }
+        .login-wrapper h1 {
+            font-size: 25px;
+        }
+        .login-wrapper form input{
+            padding: 5px 5px;
+            font-size: 12px;
+        }
+        .login-wrapper form button {
+            width: 50%;
+            font-size: 12px;
+        }
+        .login-wrapper form a {
+            font-size: 10px;
         }
     }
