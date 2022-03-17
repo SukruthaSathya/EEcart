@@ -52,6 +52,7 @@
 }
 .slide .ImgContainer img{
     height: inherit;
+    object-fit: cover;
 }
 .InfoContainer{
     flex: 1;
