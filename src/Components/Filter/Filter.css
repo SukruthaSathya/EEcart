@@ -20,4 +20,35 @@
     margin: 20px;
 
 }
-
+@media only screen and (max-width: 800px){
+    .filter-container{
+        flex-direction: column;
+    }
+    .filter{
+        margin: 0 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .filter span {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .filter select {
+        padding: 5px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .filter-parent h1{
+        margin-bottom: 0;
+    font-size: 25px;
+    }
+    .filter span{
+        font-size: 12px;
+    }
+    .filter select {
+        padding: 2px;
+        margin: 5px;
+        font-size: 11px;
+    }
+}

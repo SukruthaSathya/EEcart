@@ -14,18 +14,19 @@
 .prod-wrapper{
     padding: 50px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 90vh;
 }
 .prod-ImgContainer{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-.ImgContainer img{
-width: 100%;
-height: 90vh;
+.prod-ImgContainer img{
+height: 100%;
 object-fit: cover;
 
 }
@@ -42,6 +43,10 @@ object-fit: cover;
     font-weight: 200;
     
 }
+.prod-InfoContainer hr{
+    display: none;
+}
+
 .prod-InfoContainer span{
     font-weight: 100;
     font-size: 40px;
@@ -50,6 +55,7 @@ object-fit: cover;
     width: 100%;
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .filter-container .prod-filter{
@@ -171,12 +177,189 @@ object-fit: cover;
     padding: 5px;
     background: transparent;
     cursor: pointer;
+    color: rgb(68, 68, 68);
+    border: rgb(68, 68, 68);;
+    border: 1px solid grey;
 }
 .review button:hover{
+    color: rgb(80, 78, 78);
     background-color: rgb(241, 238, 238);
 }
 @media only screen and (max-width: 1110px){
     .prod-wrapper{
-        height: 70%;
+        height: auto;
+        width: 100vw;
     }
+    .prod-ImgContainer {
+        width: auto;
+        height: 55vh;
+    }
+    .prod-InfoContainer h1 {
+        font-size: 34px;
+    }
+    .prod-InfoContainer {
+        width: 100%;
+        text-align: center;
+    }
+    .prod-InfoContainer span {
+        font-size: 36px;
+    }
+    .prod-InfoContainer .filter-container span, .rating span{
+        font-size: 16px;
+    }
+    .prod-InfoContainer hr{
+        display:block;
+        margin: 40px 0;
+    }
+    .add-container {
+        margin-top: 0;
+    }
+    .add-container button {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .prod-filter select {
+        font-size: 14px;
+    }
+    .buy-prod, .review button {
+        font-size: 14px;
+    }
+    .prod-review{
+        margin-top: 0;
+        padding: 15px;
+        width: 75%;
+    }
+    .prod-review h2 {
+        font-size: 22px;
+        margin-top: 0;
+    }
+    .rating i {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .prod-wrapper {
+        padding: 40px;
+    }
+    .prod-ImgContainer {
+        height: 45vh;
+    }
+    .prod-ImgContainer img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .prod-InfoContainer{
+        padding: 0 30px;
+    }
+    .prod-InfoContainer h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .prod-InfoContainer p, .prod-InfoContainer .filter-container span, .rating span {
+        font-size: 14px;
+    }
+    .prod-InfoContainer span {
+        font-size: 32px;
+    }
+    .prod-InfoContainer .filter-container{
+        flex-direction: row;
+    }
+    .prod-filter .filter-color {
+        width: 15px;
+        height: 15px;
+    }
+    .prod-filter select {
+        font-size: 12px;
+    }
+    .add-container button, .buy-prod button {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .prod-review{
+        width: 80%;
+    }
+    .prod-review h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .review{
+        padding: 0;
+    }
+    .rating i {
+        font-size: 17px;
+    }
+    .buy-prod, .review button {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .prod-wrapper {
+        padding: 30px 25px;
+    }
+    .prod-ImgContainer {
+        height: 35vh;
+        width: 90vw;
+        align-items: center;
+    }
+    .prod-ImgContainer img{
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .prod-InfoContainer {
+        padding: 0 20px;
+    }
+    .prod-InfoContainer h1 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    .prod-InfoContainer .filter-container {
+        justify-content: space-around;
+    }
+    .prod-InfoContainer p, .prod-InfoContainer .filter-container span, .rating span {
+        font-size: 12px;
+    }
+    .prod-InfoContainer span {
+        font-size: 28px;
+    }
+    .filter-container .prod-filter {
+        width: 50%;
+    }
+    #prod-filter-color{
+        justify-content: flex-start;
+    }
+    #prod-filter-size{
+        justify-content: flex-end;
+    }
+    .prod-InfoContainer hr {
+        margin: 20px 0;
+    }
+    .amount-container {
+        order: 3;
+        width: auto;
+        margin-top: 20px;
+    }
+    .add-container button, .buy-prod button {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .prod-review {
+        padding: 15px 10px;
+        width: 90%;
+    }
+    .prod-review h2 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .rating i {
+        font-size: 10px;
+        margin: 0 2px;
+    }
+    .rating span{
+        margin: 0 5px;
+    }
+    .review button {
+        font-size: 10px;
+    }
+    
+    
 }
